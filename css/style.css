@@ -5,3 +5,36 @@
     box-sizing: border-box;
 }
 
+.app-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ footer
+{
+    height: 80px;
+    background-color: red;
+    flex-shrink: 0;
+}
+
+.central-wrapper {
+    /*height: calc(100% - 160);*/
+    background-color: blue;
+    flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+main {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.sidebar {
+    width: 60px;
+    background-color: blueviolet;
+    flex-shrink: 0;
+}
+
