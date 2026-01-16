@@ -15,13 +15,13 @@
 footer
 {
     height: 80px;
-    background-color: red;
+    background-color: grey;
     flex-shrink: 0;
 }
 
 .central-wrapper {
     /*height: calc(100% - 160);*/
-    background-color: blue;
+    background-color: rgb(157, 48, 48);
     flex-grow: 1;
     overflow: hidden;
     display: flex;
@@ -43,5 +43,15 @@ main {
 .logo {
     padding-top: 10px;
     margin-left:10px;
-
 }
+
+.figure {
+    padding-top:10px;
+    margin-left:10px;
+    border-radius: 50%;
+}
+    
+    
+
+
+
