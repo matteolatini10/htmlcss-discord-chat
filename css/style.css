@@ -11,7 +11,8 @@
     flex-direction: column;
 }
 
- footer
+
+footer
 {
     height: 80px;
     background-color: red;
@@ -33,8 +34,14 @@ main {
 }
 
 .sidebar {
-    width: 60px;
-    background-color: blueviolet;
+    width: 80px;
+    background-color: rgb(29, 28, 30);
     flex-shrink: 0;
 }
 
+/*immagini*/
+.logo {
+    padding-top: 10px;
+    margin-left:10px;
+
+}
