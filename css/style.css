@@ -106,3 +106,26 @@ button {
     border-radius: 51%;
     background-color: gray;
 }
+
+/*card*/
+.rossi {
+    vertical-align: middle;
+    padding-top:10px;
+    margin-left:10px;
+    border-radius: 100%;
+    
+}
+
+p {
+    display:inline;
+    vertical-align: middle;
+    color: white;
+    font-size: large;
+}
+
+.paragraph {
+    transform: translate3d(51px, -13px, 4px);
+    color:white;
+    display: block;
+    font-size:small;
+}
