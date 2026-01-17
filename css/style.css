@@ -1,3 +1,6 @@
+/*bootstrap icons*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
 /*generics*/
 * {
     margin:0;
@@ -15,13 +18,28 @@
 footer
 {
     height: 80px;
-    background-color: grey;
+    background-color: #2d2d35;
     flex-shrink: 0;
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 16px;
+        
+
+        a {
+            display: flex;
+            flex-direction: column;
+            color: white;
+            align-items: center;
+            text-decoration: none;
+        }
+    }
 }
 
 .central-wrapper {
     /*height: calc(100% - 160);*/
-    background-color: rgb(157, 48, 48);
+    background-color:#1c1d22;
     flex-grow: 1;
     overflow: hidden;
     display: flex;
@@ -35,8 +53,9 @@ main {
 
 .sidebar {
     width: 80px;
-    background-color: rgb(29, 28, 30);
+    background-color: #141318;
     flex-shrink: 0;
+    
 }
 
 /*immagini*/
@@ -51,7 +70,13 @@ main {
     border-radius: 50%;
 }
     
-    
+.screen {
+    border-radius: 50%;
+}   
 
+/*posizionamento ultimo figlio footer*/
+a:nth-last-child(1) {
+    transform: translateY(-11px);
+}
 
 
