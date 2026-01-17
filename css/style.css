@@ -79,4 +79,30 @@ a:nth-last-child(1) {
     transform: translateY(-11px);
 }
 
+/*contenuto principale*/
+h1 {
+    color: white;
+    padding:20px;
+}
 
+
+/*bottone e icon*/
+button {
+    border-radius:13px;
+    padding:8px 79px 7px 135px;
+    margin-left: 15px;
+    background-color:#373a43;
+    color:white;
+    transform: translateY(-13px);
+    background: transparent;
+}
+
+.bi-search::before {
+    font-size: 18px;
+    color: white;
+    transform: translateY(-10px);
+    margin-left: 16px;
+    border: 11px solid gray;
+    border-radius: 51%;
+    background-color: gray;
+}
