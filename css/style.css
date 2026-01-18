@@ -62,6 +62,8 @@ main {
 .logo {
     padding-top: 10px;
     margin-left:10px;
+
+
 }
 
 .figure {
@@ -126,6 +128,8 @@ button {
   background: #1c1d22;
   border-radius: 12px;
   margin: 0 8px;
+
+  
 }
 
 .chat img {
@@ -153,16 +157,7 @@ button {
   color: #8b8e99;
 }
 
-
-.chat content:nth-child(1) {
-    
-    content: "";
-    background-color: red;
-    border-radius: 50%;
-    display: block;
-    width: 8px;
-    height: 8px;
-    
-    
-
+.chat.content.gray {
+    background: #3c414f;
 }
+
